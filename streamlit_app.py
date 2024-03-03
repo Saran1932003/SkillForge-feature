@@ -16,10 +16,7 @@ PROCESSED_RESUMES_PATH = "Data/Processed/Resumes"
 PROCESSED_JOB_DESCRIPTIONS_PATH = "Data/Processed/JobDescription"
 UPLOADED_RESUMES_PATH = "Data/Resumes"
 
-    # Always run on port 8501
-PORT = 8501
-BASE_URL = f"http://localhost:{PORT}"
-st.set_option('server.port', PORT)
+
 
 def read_json(filename):
     with open(filename) as f:
